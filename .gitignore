@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+cancer_detection_env/
+
+# Data and model artifacts
+models/
+logs/
+plots/
+*.h5
+*.ckpt
+*.pth
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CSV and image data (if not to be tracked)
+train_labels.csv
+train/
+test/
+*.tif
+
+# VSCode settings
+.vscode/
